@@ -13,13 +13,13 @@
 	"dependencies": {
 		"@astrojs/check": "^0.5.10",
 		"@astrojs/cloudflare": "^9.2.1",
-		"astro": "^4.5.12",
-		"bluesky-post-embed": "^0.1.5",
-		"typescript": "^5.4.3"
+		"astro": "^4.6.0",
+		"bluesky-post-embed": "^0.1.6",
+		"typescript": "^5.4.5"
 	},
 	"devDependencies": {
 		"prettier": "^3.2.5",
 		"prettier-plugin-astro": "^0.13.0",
-		"prettier-plugin-css-order": "^2.1.1"
+		"prettier-plugin-css-order": "^2.1.2"
 	}
 }
