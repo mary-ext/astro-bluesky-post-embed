@@ -1,7 +1,18 @@
 ---
+// The custom element expects its template content to be in a shadow DOM, this
+// means that styles are isolated, and we can't make use of Astro's styling
+// quite easily.
+
+// We'll be inlining the stylesheet directly to the HTML, this reduces FOUC
+// (flash of unwanted content), but also means that your HTML pages will be
+// quite bloated when multiple embeds are involved.
+
+// If that's undesirable, switch to the `?url` import.
+
 import * as core from 'bluesky-post-embed/core';
-// import stylesUrl from 'bluesky-post-embed/style.css?url';
+
 import styles from 'bluesky-post-embed/style.css?inline';
+// import stylesUrl from 'bluesky-post-embed/style.css?url';
 
 interface Props {
 	src: string;
