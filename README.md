@@ -4,6 +4,6 @@
 
 Component code can be found [here](./src/components/BlueskyPost.astro).
 
-Read more about the post embeds itself [here](https://codeberg.org/mary-ext/bluesky-post-embed).
+Read more about the post embeds itself [here](https://github.com/mary-ext/bluesky-embed).
 
-![image](https://github.com/mary-ext/astro-bluesky-post/assets/148872143/5cdba835-45ba-43c3-ba0d-e994609f5098)
+![image](https://github.com/user-attachments/assets/598be808-c056-4d86-b1aa-ffe049ec5afb)
