@@ -1,0 +1,23 @@
+---
+import { fetchPost, renderPost } from 'bluesky-embed/post/core';
+
+interface Props {
+	uri: string;
+	contextless?: boolean;
+}
+
+const { uri, contextless = false } = Astro.props;
+
+const data = await fetchPost({ uri, contextless });
+const render = renderPost(data);
+---
+
+<bluesky-post src={data.thread?.post.uri}>
+	<Fragment set:html={render} />
+</bluesky-post>
+
+<style is:global>
+	@import 'bluesky-embed/style.css';
+	@import 'bluesky-embed/themes/light.css' (prefers-color-scheme: light);
+	@import 'bluesky-embed/themes/dim.css' (prefers-color-scheme: dark);
+</style>

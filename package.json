@@ -1,0 +1,25 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"fmt": "prettier --cache --write ."
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.4",
+		"astro": "^4.16.13",
+		"bluesky-embed": "0.2.0-alpha.1",
+		"typescript": "^5.6.3"
+	},
+	"devDependencies": {
+		"@astrojs/cloudflare": "^11.2.0",
+		"prettier": "^3.3.3",
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-css-order": "^2.1.2",
+		"wrangler": "^3.89.0"
+	}
+}
