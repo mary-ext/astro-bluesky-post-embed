@@ -1,0 +1,9 @@
+@import 'bluesky-embed/post/style.css';
+@import 'bluesky-embed/themes/light.css' (prefers-color-scheme: light);
+@import 'bluesky-embed/themes/dim.css' (prefers-color-scheme: dark);
+
+html {
+	background: #13151a;
+	background-size: 224px;
+	font-family: system-ui, sans-serif;
+}

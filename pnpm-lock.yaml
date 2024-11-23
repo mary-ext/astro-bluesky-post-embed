@@ -15,8 +15,8 @@ importers:
         specifier: ^4.16.13
         version: 4.16.14(@types/node@22.9.1)(rollup@4.27.3)(typescript@5.6.3)
       bluesky-embed:
-        specifier: 0.2.0-alpha.1
-        version: 0.2.0-alpha.1
+        specifier: 0.2.0-alpha.2
+        version: 0.2.0-alpha.2
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -944,8 +944,8 @@ packages:
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
 
-  bluesky-embed@0.2.0-alpha.1:
-    resolution: {integrity: sha512-szyY0gId12809HxcRIrQA1a6b5E/AZIIw22UG9MufJIBnyhpBuOAfg2YogbgVbOvIrOMLqHHVBFGlGmBjRrEFA==}
+  bluesky-embed@0.2.0-alpha.2:
+    resolution: {integrity: sha512-tIbqXh167QV+apDWdtBL+TGPE+6SjbMEjq+BxQpOkj/Dt7UK/mc1e7FDQoEESz28JAS9PmRbaxGoMmzOfB2APA==}
 
   boxen@8.0.1:
     resolution: {integrity: sha512-F3PH5k5juxom4xktynS7MoFY+NUWH5LC4CnH11YB8NPew+HLpmBLCybSAEyb2F+4pRXhuhWqFesoQd6DAyc2hw==}
@@ -3212,7 +3212,7 @@ snapshots:
 
   blake3-wasm@2.1.5: {}
 
-  bluesky-embed@0.2.0-alpha.1:
+  bluesky-embed@0.2.0-alpha.2:
     dependencies:
       '@atcute/bluesky': 1.0.8(@atcute/client@2.0.4)
       '@atcute/bluesky-richtext-segmenter': 1.0.5(@atcute/bluesky@1.0.8(@atcute/client@2.0.4))(@atcute/client@2.0.4)
