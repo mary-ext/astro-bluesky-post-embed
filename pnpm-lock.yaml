@@ -15,8 +15,8 @@ importers:
         specifier: ^4.16.16
         version: 4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
       bluesky-post-embed:
-        specifier: 0.2.0-alpha.2
-        version: 0.2.0-alpha.2
+        specifier: 1.0.0
+        version: 1.0.0
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -949,8 +949,8 @@ packages:
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
 
-  bluesky-post-embed@0.2.0-alpha.2:
-    resolution: {integrity: sha512-uZcm7AP21bo4zl0IBcINBkXYZS40lB/MDyblTVzqIE8OFkDv1NDPjAyTKiFnd679NhD7htmg3kUaaipEAcUS1g==}
+  bluesky-post-embed@1.0.0:
+    resolution: {integrity: sha512-X7s9PCF/BDoQcjYI14E9EG7nDhKQOS0i02Bk4R2r/ZoTiqkfixMPzZulMIcpx8EVddf8JBALOLSfbhFW7HEEbg==}
 
   boxen@8.0.1:
     resolution: {integrity: sha512-F3PH5k5juxom4xktynS7MoFY+NUWH5LC4CnH11YB8NPew+HLpmBLCybSAEyb2F+4pRXhuhWqFesoQd6DAyc2hw==}
@@ -3240,7 +3240,7 @@ snapshots:
 
   blake3-wasm@2.1.5: {}
 
-  bluesky-post-embed@0.2.0-alpha.2:
+  bluesky-post-embed@1.0.0:
     dependencies:
       '@atcute/bluesky': 1.0.9(@atcute/client@2.0.6)
       '@atcute/bluesky-richtext-segmenter': 1.0.5(@atcute/bluesky@1.0.9(@atcute/client@2.0.6))(@atcute/client@2.0.6)
