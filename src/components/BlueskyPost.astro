@@ -1,5 +1,5 @@
 ---
-import { fetchPost, renderPost } from 'bluesky-embed/post/core';
+import { fetchPost, renderPost } from 'bluesky-post-embed/core';
 
 interface Props {
 	uri: string;
@@ -15,3 +15,9 @@ const render = renderPost(data);
 <bluesky-post src={data.thread?.post.uri}>
 	<Fragment set:html={render} />
 </bluesky-post>
+
+<style is:global>
+	@import 'bluesky-post-embed/style.css';
+	@import 'bluesky-post-embed/themes/light.css' (prefers-color-scheme: light);
+	@import 'bluesky-post-embed/themes/dim.css' (prefers-color-scheme: dark);
+</style>
