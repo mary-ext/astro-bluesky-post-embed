@@ -11,15 +11,15 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.4",
-		"astro": "^4.16.16",
-		"bluesky-post-embed": "1.0.0",
+		"astro": "^5.0.5",
+		"bluesky-post-embed": "^1.0.5",
 		"typescript": "^5.7.2"
 	},
 	"devDependencies": {
-		"@astrojs/cloudflare": "^11.2.0",
-		"prettier": "^3.4.1",
+		"@astrojs/cloudflare": "^12.1.0",
+		"prettier": "^3.4.2",
 		"prettier-plugin-astro": "^0.14.1",
 		"prettier-plugin-css-order": "^2.1.2",
-		"wrangler": "^3.91.0"
+		"wrangler": "^3.95.0"
 	}
 }
